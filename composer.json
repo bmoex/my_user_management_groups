@@ -1,0 +1,42 @@
+{
+    "name": "serfhos/my-user-management-groups",
+    "description": "TYPO3 Extension: Extend module with user override of groups selection.",
+    "type": "typo3-cms-extension",
+
+    "keywords": [
+        "TYPO3",
+        "CMS",
+        "Koninklijke Collective",
+        "Collective",
+        "Serfhos",
+        "Benjamin Serfhos",
+        "Extbase",
+        "User Management"
+    ],
+    "homepage": "https://github.com/bmoex/my_user_management_groups",
+    "license": "LGPL-3.0+",
+
+    "version": "1.0.0",
+
+    "require": {
+        "typo3/cms-core": ">=7.6.0,<9.0"
+    },
+
+    "suggest": {
+        "typo3-ter/my-user-management": "This plugin uses functionality from my_user_management"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Serfhos\\MyUserManagementGroups\\": "Classes/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Benjamin Serfhos",
+            "email": "benjamin@serfhos.com",
+            "homepage": "http://serfhos.com"
+        }
+    ]
+}
